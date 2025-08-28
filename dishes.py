@@ -20,7 +20,7 @@ class Dish:
     
 #calling the add_dish() function.
 food = Dish()
-food.add_dish("Steak", "Beef and salf", "Savory")
+food.add_dish(input("Name your dish: "), input("Add your recipe: "), input("What is this dish's flavor profile? "))
 
 
 # Printing the dishes_list to see the result.
@@ -31,4 +31,4 @@ print(dishes_list)
 
 # Finding a dish based on the flavor chosen with find_dish():
 
-food.find_dish("Savory")
+food.find_dish(input("What flavor profile are you looking for? "))
