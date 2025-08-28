@@ -13,5 +13,5 @@
 ### Picking a dish:
 
 1. Choose one or multiple flavors
-2. Get recommended dish or a list of dishes
+2. Get a recommended dish or a list of dishes
 3. Option to see the recipe of the dish
