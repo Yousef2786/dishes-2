@@ -15,3 +15,8 @@
 1. Choose one or multiple flavors
 2. Get a recommended dish or a list of dishes
 3. Option to see the recipe of the dish
+
+### User Flavor Matching:
+
+1. A user lists his favorite flavors.
+2. User gets matched with dishes the align with his favorite flavors.
