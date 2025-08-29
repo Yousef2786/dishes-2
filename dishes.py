@@ -10,15 +10,11 @@ class Dish:
         self.dishes_list.append(dict_dishes)
 
     def find_dish(self, flavor):
-        result = None
-        for dish_dict in self.dishes_list:
-            if flavor in dish_dict["Flavor Profile"]:
-                recommended_dish = []
-                recommended_dish.append(dish_dict)
-                result = f"We recommend the following dish: {recommended_dish}"
-            else:
-                result = "We don't have a dish with that flavor profile."
-        return result
+        recommended_dish = [dish for dish in self.dishes_list if flavor in dish["Flavor Profile"]]
+        if recommended_dish:
+            return f"We recommend the following dish: {recommended_dish}"
+        else:
+            return "We don't have a dish with that flavor profile."
 
     
 #calling the add_dish() function.
@@ -35,5 +31,5 @@ print(food.dishes_list)
 
 # Finding a dish based on the flavor chosen with find_dish():
 
-flavor_chosen = food.find_dish("Umami")
+flavor_chosen = food.find_dish("Savory")
 print(flavor_chosen)

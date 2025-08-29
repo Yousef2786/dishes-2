@@ -6,7 +6,7 @@
 4. The ability to pick the dish from the list of recommended dishes and see the recipe for it.
 
 ### Dish Creation:
-1. Add dish
+1. Add multiple dishes
 2. Add recipe
 3. Add flavor profiles
 
